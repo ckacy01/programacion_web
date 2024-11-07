@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen JAvila</title>
+    <!-- Hoja de estilos-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap 5 Styles-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-auto" id="colmain">
+                 <!-- Sidebar -->
+                <nav class="flex-column p-3 d-flex flex-shrink-0 sidebar" >
+                    <ul class="nav nav-pills flex-column mb-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="alumnos.html" target="main" >
+                                <span class="icon">
+                                    <i class="bi bi-person"></i>
+                                </span>
+                                <span class="description">Alumnos</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profesores.html" target="main">
+                                <span class="icon">
+                                    <i class="bi bi-mortarboard"></i>
+                                </span>
+                                <span class="description">Profesores</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carreras.html" target="main">
+                                <span class="icon">
+                                    <i class="bi bi-box-seam"></i>
+                                </span>
+                                <span class="description">Carreras</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="container">
+                        <div class="d-flex align-items-center user">
+                            <img src="https://siiaa.mx/assets/images/venado_upsin100.png" alt width="32px" height="32px" class="rounded-circle me-2" style="border: 2px solid white;" >
+                            <strong>LOS PAPUS</strong>
+                        </div>
+                    </div>
+                   
+                </nav>
+            </div>
+            <div class="col" id="colmain">
+                 <!-- Main con iFrame -->
+                <main class="main-content d-flex flex-column">
+                    <iframe src="alumnos.html" frameborder="0" name="main" style="height: 100vh; width: 100%;">
+                    </iframe>
+                </main>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
