@@ -28,10 +28,9 @@
         }
 
         function mostrarData(data){
-            let html = '';
+            let html = '<option value="" selected disabled>Seleccione una opción</option>';
             Object.entries(data).forEach(([key,carrera]) => {
                 html += `
-                        <option value="" selected disabled>Seleccione una opción</option>
                         <option value="${carrera.Nombre}">${carrera.Nombre}</option>
                         `
                 console.log(carrera);
