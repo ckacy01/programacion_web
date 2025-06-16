@@ -4,6 +4,7 @@ Proyecto con lo sig:
 - Conexión con firebase
 - Peticiones PUT, POST, GET y DELETE
 - Hosteado y desplegado en netlify
+- https://earnest-douhua-97371d.netlify.app/
 
 # Integrantes
 - Avila Carrillo Jorge Armando | 2022030069
